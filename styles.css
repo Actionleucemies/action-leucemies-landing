@@ -15,17 +15,45 @@ body {
     padding: 20px;
 }
 
-/* Logo */
+/* Barre de navigation */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 15px 30px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
 .logo {
-    width: 180px;
-    margin-bottom: 20px;
+    width: 150px;
+}
+
+.don-btn {
+    padding: 10px 20px;
+    background: #d32f2f;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.don-btn:hover {
+    background: #b71c1c;
 }
 
 /* Section héros */
 .hero {
     background: #d32f2f;
     color: white;
-    padding: 60px 20px;
+    padding: 100px 20px 60px;
+    margin-top: 80px;
 }
 
 .hero h1 {
@@ -75,23 +103,6 @@ body {
 .impact-item h3 {
     color: #d32f2f;
     font-size: 1.5em;
-}
-
-/* Témoignages */
-.testimonials {
-    background: #f5f5f5;
-    padding: 40px 20px;
-}
-
-blockquote {
-    font-style: italic;
-    font-size: 1.2em;
-}
-
-cite {
-    display: block;
-    margin-top: 10px;
-    font-weight: bold;
 }
 
 /* Footer */
