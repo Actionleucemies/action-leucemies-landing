@@ -3,51 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Action Leucémies - Ensemble contre la maladie</title>
-    <meta name="description" content="Aidez Action Leucémies à soutenir les patients et financer la recherche contre la leucémie. Faites un don et sauvez des vies.">
+    <title>Action Leucémies - Faites un Don</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <div class="navbar">
-            <img src="logo.png" alt="Logo Action Leucémies" class="logo">
-            <a href="https://www.paypal.com/donate?token=R85Qdphfs0ukUpcfG8iWFRPs5dXb0austG-_Xhzk3LDxY4vhlQzqHxKqXYv40GJ_15VRmnZfza2KDUrm" class="don-btn">Je fais un don</a>
+            <img src="logo.png" alt="Action Leucémies" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="#">Qui sommes-nous ?</a></li>
+                    <li><a href="#">Nos actions</a></li>
+                    <li><a href="#">Actualités</a></li>
+                </ul>
+            </nav>
+            <a href="https://www.paypal.com/donate?token=R85Qdphfs0ukUpcfG8iWFRPs5dXb0austG-_Xhzk3LDxY4vhlQzqHxKqXYv40GJ_15VRmnZfza2KDUrm" class="donate-btn">Je fais un don</a>
         </div>
     </header>
 
     <section class="hero">
-        <div class="container">
-            <h1>Ensemble contre la leucémie</h1>
-            <p>Chaque don permet d’accompagner les patients et de soutenir la recherche.</p>
-            <a href="https://www.paypal.com/donate?token=R85Qdphfs0ukUpcfG8iWFRPs5dXb0austG-_Xhzk3LDxY4vhlQzqHxKqXYv40GJ_15VRmnZfza2KDUrm" class="btn">Je fais un don</a>
-        </div>
-    </section>
-
-    <section class="impact">
-        <div class="container">
-            <h2>Votre don change des vies</h2>
-            <div class="impact-grid">
-                <div class="impact-item">
-                    <h3>30€</h3>
-                    <p>Financent une consultation spécialisée.</p>
-                </div>
-                <div class="impact-item">
-                    <h3>60€</h3>
-                    <p>Participent à l'achat de matériel médical.</p>
-                </div>
-                <div class="impact-item">
-                    <h3>100€</h3>
-                    <p>Aident à financer la recherche sur la leucémie.</p>
-                </div>
+        <div class="donation-box">
+            <h2>Donner pour soutenir la lutte contre la leucémie</h2>
+            <div class="donation-options">
+                <button class="don-type active">Ponctuel</button>
+                <button class="don-type">Mensuel</button>
             </div>
-            <a href="https://www.paypal.com/donate?token=R85Qdphfs0ukUpcfG8iWFRPs5dXb0austG-_Xhzk3LDxY4vhlQzqHxKqXYv40GJ_15VRmnZfza2KDUrm" class="btn">Faire un don maintenant</a>
+            <div class="donation-amounts">
+                <button class="amount">30€</button>
+                <button class="amount">60€</button>
+                <button class="amount active">100€</button>
+                <button class="amount">200€</button>
+            </div>
+            <input type="text" class="custom-amount" placeholder="Autre montant">
+            <a href="https://www.paypal.com/donate?token=R85Qdphfs0ukUpcfG8iWFRPs5dXb0austG-_Xhzk3LDxY4vhlQzqHxKqXYv40GJ_15VRmnZfza2KDUrm" class="donate-now">Je fais un don</a>
         </div>
     </section>
-
-    <footer>
-        <div class="container">
-            <p>&copy; 2025 - Action Leucémies. Tous droits réservés.</p>
-        </div>
-    </footer>
 </body>
 </html>
