@@ -119,7 +119,7 @@ body {
     left: 0; /* Aligner sur la gauche */
     width: 100%; /* Largeur de 100% pour toute la page */
     height: 200px; /* Hauteur de la bannière, tu peux ajuster selon l'image */
-    z-index: 1000; /* Assurer que la bannière est au-dessus des autres éléments */
+    z-index: 2000; /* Assurer que la bannière est au-dessus des autres éléments */
     overflow: hidden; /* Empêche l'image de déborder */
 }
 
