@@ -1,22 +1,24 @@
-/* Réinitialisation de base */
-body, h1, h2, h3, p {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-}
-
 /* Styles généraux */
 body {
     background-color: #f5f5f5;
     color: #333;
-    line-height: 1.6;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 .container {
     width: 90%;
     max-width: 1100px;
     margin: auto;
-    text-align: center;
+    padding: 20px;
+}
+
+/* Logo */
+.logo {
+    width: 180px;
+    margin-bottom: 20px;
 }
 
 /* Section héros */
@@ -26,64 +28,73 @@ body {
     padding: 60px 20px;
 }
 
+.hero h1 {
+    font-size: 2em;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
 .hero .btn {
     display: inline-block;
     margin-top: 15px;
-    padding: 10px 20px;
-    background: white;
+    padding: 15px 25px;
+    background: #ffcc00;
     color: #d32f2f;
     text-decoration: none;
     font-weight: bold;
     border-radius: 5px;
 }
 
-/* Section à propos */
-.about, .impact, .don {
+/* Section impact */
+.impact {
+    background: white;
+    padding: 50px 20px;
+}
+
+.impact h2 {
+    color: #d32f2f;
+}
+
+.impact-grid {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.impact-item {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+}
+
+.impact-item h3 {
+    color: #d32f2f;
+    font-size: 1.5em;
+}
+
+/* Témoignages */
+.testimonials {
+    background: #f5f5f5;
     padding: 40px 20px;
 }
 
-/* Statistiques */
-.stats {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 20px;
+blockquote {
+    font-style: italic;
+    font-size: 1.2em;
 }
 
-.stat {
-    background: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
+cite {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
 }
 
-/* Formulaire de don */
-form {
-    margin-top: 20px;
-}
-
-input {
-    padding: 10px;
-    width: 80%;
-    max-width: 300px;
-    margin: 10px 0;
-}
-
-.btn {
-    background: #d32f2f;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
-    border-radius: 5px;
-}
-
-.btn:hover {
-    background: #b71c1c;
-}
-
-/* Pied de page */
+/* Footer */
 footer {
     background: #333;
     color: white;
