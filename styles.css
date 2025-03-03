@@ -111,3 +111,42 @@ body {
 .donate-now:hover {
     background: #e6b800;
 }
+
+/* Bannière avec image */
+.banner {
+    position: fixed; /* Rendre la bannière fixe en haut */
+    top: 0; /* Positionner en haut de la page */
+    left: 0; /* Aligner sur la gauche */
+    width: 100%; /* Largeur de 100% pour toute la page */
+    height: 200px; /* Hauteur de la bannière, tu peux ajuster selon l'image */
+    z-index: 1000; /* Assurer que la bannière est au-dessus des autres éléments */
+    overflow: hidden; /* Empêche l'image de déborder */
+}
+
+.banner-image {
+    width: 100%; /* La bannière occupe toute la largeur de la page */
+    height: 100%; /* La hauteur de l'image s'ajuste à la hauteur de la bannière */
+    object-fit: cover; /* Permet à l'image de se redimensionner sans déformation */
+}
+
+.cta-button {
+    position: absolute; /* Positionner le bouton par-dessus l'image */
+    bottom: 20px; /* Distance du bas de la bannière */
+    left: 50%; /* Centrer horizontalement */
+    transform: translateX(-50%); /* Centrage exact du bouton */
+    background-color: #FF9800; /* Couleur du bouton */
+    color: white; /* Couleur du texte du bouton */
+    padding: 10px 20px; /* Espacement interne du bouton */
+    text-decoration: none; /* Supprimer le souligné du lien */
+    font-weight: bold;
+    border-radius: 5px; /* Coins arrondis */
+}
+
+.cta-button:hover {
+    background-color: #FF5722; /* Changer la couleur du bouton au survol */
+}
+
+/* Style pour éviter que le contenu principal soit caché par la bannière */
+.content {
+    padding-top: 220px; /* Espace sous la bannière pour éviter qu'elle ne cache le contenu */
+}
