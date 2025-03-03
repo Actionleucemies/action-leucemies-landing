@@ -142,6 +142,10 @@ body {
     border-radius: 5px; /* Coins arrondis */
 }
 
+.content {
+    padding-top: 350px; /* Ajuste cette valeur pour donner de l'espace sous la bannière */
+}
+
 .cta-button:hover {
     background-color: #FF5722; /* Changer la couleur du bouton au survol */
 }
