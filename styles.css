@@ -57,7 +57,7 @@ body {
     top: 70px; /* Décale la bannière sous la barre de navigation */
     left: 0;
     width: 100%;
-    height: 1000px; /* Hauteur de la bannière */
+    height: 450px; /* Hauteur de la bannière */
     z-index: 999; /* Assurer que la bannière est juste sous la barre de navigation */
     overflow: hidden;
 }
